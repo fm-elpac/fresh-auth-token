@@ -1,0 +1,12 @@
+{
+  "name": "@fm-elpac/fresh-auth-token",
+  "version": "0.0.1-a1",
+  "exports": {
+    ".": "./src/lib.ts"
+  },
+  "imports": {
+    "@std/crypto": "jsr:@std/crypto@^0.224.0",
+    "@std/encoding": "jsr:@std/encoding@^0.224.1",
+    "@std/path": "jsr:@std/path@^0.225.1"
+  }
+}
